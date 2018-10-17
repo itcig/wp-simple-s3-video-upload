@@ -1,6 +1,6 @@
 {
   "name": "itcig/wp-simple-s3-video-upload",
-  "type": "wordpress-muplugin",
+  "type": "wordpress-plugin",
   "require": {
     "aws/aws-sdk-php": "3.3.8"
   }
