@@ -2,6 +2,6 @@
   "name": "itcig/wp-simple-s3-video-upload",
   "type": "wordpress-plugin",
   "require": {
-    "aws/aws-sdk-php": "3.3.8"
+    "aws/aws-sdk-php": "^3.5"
   }
 }
