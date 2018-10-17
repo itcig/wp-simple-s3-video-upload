@@ -17,7 +17,7 @@
             return cdn + video_key.replace('converted', 'thumbnails').replace('.mp4', thumb);
         },
         insert_quicktag: function(video_key) {
-            var quicktag = '[video_upload file="' + cdn + video_key + '" image="' + helpers.make_thumb_url(video_key) + '"]';
+            var quicktag = '[video src="' + cdn + video_key + '" poster="' + helpers.make_thumb_url(video_key) + '"]';
             if (helpers.mediaPage) {
                 parent.send_to_editor(quicktag);
             } else {
