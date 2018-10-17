@@ -1,5 +1,7 @@
 {
-    "require": {
-        "aws/aws-sdk-php": "3.3.8"
-    }
+  "name": "itcig/wp-simple-s3-video-upload",
+  "type": "wordpress-muplugin",
+  "require": {
+    "aws/aws-sdk-php": "3.3.8"
+  }
 }
