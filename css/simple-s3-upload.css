@@ -1,0 +1,109 @@
+.video_upload-error {
+  color: red;
+}
+
+#video_upload-video-box .inside {
+  background: url('logo.png') 8px 6px no-repeat;
+}
+
+#video_upload-video-box .inside {
+  margin: 0;
+}
+
+#video_upload-search-box {
+  width: 99%;
+  margin-bottom: 5px;
+  color: lightgray;
+  padding-right: 20px;
+  margin: 4px;
+}
+
+#video_upload-search-box:focus {
+  color: black;
+}
+
+#video_upload-video-list p {
+  margin-left: 5px;
+}
+
+#video_upload-video-list {
+    max-height: 500px;
+    overflow: auto;
+}
+
+#video_upload-video-list li {
+  background-position: left top;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  display: block;
+  height: 50px;
+  margin-bottom: -1px;
+  padding: 1px 0 4px 5px;
+  position: relative;
+}
+
+#video_upload-video-list li.video_upload-failed {
+  cursor: default;
+}
+
+#video_upload-video-list li.video_upload-odd {
+  background-color: #fff;
+}
+
+#video_upload-video-list li.video_upload-even {
+  background-color: #f2f2f2;
+}
+
+#video_upload-video-list li img {
+    display: inline;
+    max-height: 50px;
+    margin-right: 10px;
+}
+
+#video_upload-video-list li p {
+  display: inline;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 0;
+  position: relative;
+  top: -20px;
+  overflow: hidden;
+  padding-right: 7px;
+}
+
+#video_upload-video-list button {
+  float: right;
+  margin: 2px;
+}
+
+#video_upload-player-select {
+  width: 100%;
+}
+
+#video_upload-upload-button {
+  margin: 11px;
+}
+
+.video_upload-busy * {
+  cursor: wait;
+}
+
+.video_upload-dashboard-link {
+  display: block;
+  line-height: 34px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.video_upload-progress-bar {
+  width: 200px;
+  height: 10px;
+  background: #fff;
+  display: none;
+}
+
+.video_upload-progress-bar > .video_upload-progress {
+  width: 0;
+  height: 10px;
+  background: #0074BD;
+}
